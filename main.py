@@ -1,18 +1,18 @@
 """
 Программа включает в себя следующие функции:
-- read_data(filename: str) -> List[Dict[str, str]]:
+- read_data(filename: str) -> List[Dict]:
   Читает данные из CSV-файла и возвращает список словарей.
 
-- display_hierarchy(data: List[Dict[str, str]]):
+- display_hierarchy(data: List[Dict]):
   Выводит иерархию команд на экран.
 
-- gen_department_report(data: List[Dict[str, str]]) -> List[Dict[str, str]]:
+- gen_department_report(data: List[Dict]) -> List[Dict]:
   Генерирует сводный отчёт по департаментам на основе входных данных.
 
-- print_department_report(report: List[Dict[str, str]]) -> None:
+- print_department_report(report: List[Dict]) -> None:
   Печатает сводный отчёт о департаментах в виде таблицы.
 
-- save_report_to_csv(report: List[Dict[str, str]], filename: str):
+- save_report_to_csv(report: List[Dict], filename: str):
   Сохраняет сводный отчёт в CSV-файл.
 
 - main() -> None:
